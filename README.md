@@ -1,3 +1,3 @@
 # se100-nov25
-I am learnin
-testing
+
+A repository for SE100 again
