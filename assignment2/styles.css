@@ -1,0 +1,60 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header background color */
+h1 {
+    background-color: #93d0f4; text-align: center;
+}
+
+.image-container {
+  background-color: #93d0f4; /* Full-width background color */
+  width: 100%;               /* Stretches across the page */
+  text-align: center;        /* center the image horizontally */
+  padding: 20px 0;           /* adds spacing above and below the image 
+                            The first value (20px) applies to the top and bottom padding.
+                            The second value (0) applies to the left and right padding.*/
+}
+
+.image-container img {
+  width: auto;               /* Keeps the image’s original width */
+  height: auto;              /* Keeps the image’s aspect ratio */
+}
+
+
+/* Create a padding above "About the Company"*/
+#about{
+  padding-top: 20px;
+}
+
+table {
+  border-collapse: collapse; /* Ensures shared borders between cells */
+  width: 100%;  
+}
+
+table, th, td {
+  border: 1px solid #ddd;    /* Creates a 1px solid border with color #ddd */
+}
+
+th, td {
+  padding: 10px;             /* Adds 10px padding inside each cell */
+  text-align: left;          /* Aligns text to the left */
+}
+
+footer {
+  background-color: #93d0f4;  /* Sets background color */
+  text-align: center;         /* Centers text horizontally */
+  padding: 10px 0;            /* 10px top/bottom, 0 left/right */
+  color: white              /* sets font color */
+}
