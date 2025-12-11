@@ -52,6 +52,10 @@ th, td {
   text-align: left;          /* Aligns text to the left */
 }
 
+a {
+  color: #0079c1;
+}
+
 footer {
   background-color: #93d0f4;  /* Sets background color */
   text-align: center;         /* Centers text horizontally */
