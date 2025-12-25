@@ -14,3 +14,7 @@ const disneyData = [
 ];
 
 // Write your code below
+let avePrice = (parseFloat(disneyData[0]['close']) + parseFloat(disneyData[1]['close']))/2;
+
+console.log('Average closing price of Disney is ' + Math.round(avePrice*100)/100);
+
